@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: aquamarine;
+  background-color: #ffffff;
 }
 
 .header-logo {
@@ -99,4 +99,79 @@
   font-size: 13px;
   line-height: 15px;
   text-align: center;
+}
+
+.menu {
+  width: 100%;
+  margin-top: 111px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: var(--text-font-weigth400);
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+  color: #1d1d1d;
+  margin-bottom: 12px;
+}
+
+.menu__line {
+  width: 50px;
+  height: 1px;
+  border-bottom: 1px solid #757575;
+  align-self: center;
+  margin-bottom: 43px;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.snacks {
+  width: 308px;
+  height: 102px;
+  margin-left: 8px;
+  margin-right: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #757575;
+  }
+
+.snacks-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.snacks__title {
+  font-style: normal;
+  font-weight: var(--text-font-weigth400);
+  font-size: var(--font-size-14);
+  line-height: 24px;
+  color: #1d1d1d;
+}
+
+.snacks__addition {
+  font-style: normal;
+  font-weight: var(--text-font-weigth400);
+  font-size: var(--font-size-14);
+  line-height: 21px;
+  color: #626262;
+  padding-bottom: 16px;
+}
+
+.snacks__price {
+  font-style: normal;
+  font-weight: var(--text-font-weigth500);
+  font-size: 15px;
+  line-height: 21px;
+  color: #1d1d1d;
+  padding-bottom: 15px;
 }
