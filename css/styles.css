@@ -131,6 +131,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+  margin-bottom: 40px;
 }
 
 .snacks {
@@ -142,12 +143,12 @@
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid #757575;
-  }
+}
 
 .snacks-name {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .snacks__title {
@@ -174,4 +175,129 @@
   line-height: 21px;
   color: #1d1d1d;
   padding-bottom: 15px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #262626;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.footer-logo {
+  width: 100%;
+  padding: 56px 0 40px 0;
+}
+
+.footer-line {
+  border-bottom: 1px solid #626262;
+  width: 100%;
+  height: 1px;
+  opacity: 0.4;
+  margin-bottom: 32px;
+}
+
+.language-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3b3b3b;
+  width: 173px;
+  height: 40px;
+  border-radius: 2px;
+  align-items: center;
+
+  padding: 0 8px 0 16px;
+  margin-bottom: 32px;
+}
+
+.language-box__world-logo {
+  width: 15px;
+  height: 15px;
+}
+
+.language-box__title {
+  font-style: normal;
+  font-weight: var(--text-font-weigth400);
+  font-size: var(--font-size-14);
+  line-height: 15px;
+  color: #ffffff;
+  padding-right: 49px;
+}
+
+.language-box__arrow {
+  width: 8px;
+  height: 14px;
+}
+
+.info {
+  width: 96px;
+  height: 59px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.info__title {
+  display: flex;
+  flex-direction: row;
+}
+
+.info__hash {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #49a144;
+}
+
+.info__logo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.social {
+  width: 96px;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-list {
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  margin-bottom: 40px;
+}
+
+.footer-list__link {
+  font-style: normal;
+  font-weight: var(--text-font-weigth400);
+  font-size: var(--font-size-14);
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.footer-auth {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.footer-auth__link {
+  font-style: normal;
+  font-weight: var(--text-font-weigth400);
+  font-size: 11px;
+  line-height: 13px;
+  color: #ffffff;
 }
