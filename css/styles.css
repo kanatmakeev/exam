@@ -38,6 +38,12 @@
   border: none;
 }
 
+.button a:hover {
+  background: #57ad56;
+  border-radius: 2px;
+  color: #ffffff;
+}
+
 /*main*/
 
 .name {
@@ -301,4 +307,3 @@
   line-height: 13px;
   color: #ffffff;
 }
-
