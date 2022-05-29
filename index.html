@@ -21,105 +21,119 @@
         </div>
       </div>
     </header>
-    <main>
-      <section class="name">
-        <div class="name-foto">
-          <picture>
-            <source
-              srcset="./assets/fon2.png"
-              media="(min-width: 600px) and (max-width: 1000px)"
-            />
-            <source
-              srcset="./assets/fon-descktop.png"
-              media="(min-width: 1001px)"
-            />
-            <img
-              class="name-foto__fon"
-              src="./assets/main-foto.png"
-              alt="foto"
-            />
-          </picture>
+    <main class="main">
+      <div class="main-foto">
+        <picture>
+          <source
+            srcset="./assets/fon2.png"
+            media="(min-width: 700px) and (max-width: 1000px)"
+          />
+          <source
+            srcset="./assets/fon-descktop.png"
+            media="(min-width: 1001px)"
+          />
+          <img class="main-foto__fon" src="./assets/main-foto.png" alt="foto" />
+        </picture>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a class="nav-list__item" href="#">Закуски</a></li>
+          <li><a class="nav-list__item" href="#">Салаты</a></li>
+          <li><a class="nav-list__item" href="#">Супы</a></li>
+          <li><a class="nav-list__item" href="#">Горячие блюда</a></li>
+          <li><a class="nav-list__item" href="#">Гарниры</a></li>
+          <li><a class="nav-list__item" href="#">Десерты</a></li>
+        </ul>
+      </nav>
+      <div class="main-block">
+        <h1 class="main-block__title">Трактир «Пушкин»</h1>
+        <div class="main-block__view">
+          <span class="view">₽₽₽ • Европейская</span>
+          <div class="view-button">40 - 50 Min</div>
         </div>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li><a class="nav-list__item" href="#">Закуски</a></li>
-            <li><a class="nav-list__item" href="#">Салаты</a></li>
-            <li><a class="nav-list__item" href="#">Супы</a></li>
-            <li><a class="nav-list__item" href="#">Горячие блюда</a></li>
-            <li><a class="nav-list__item" href="#">Гарниры</a></li>
-            <li><a class="nav-list__item" href="#">Десерты</a></li>
-          </ul>
-        </nav>
-        <div class="name-block">
-          <h1 class="name-block__title">Трактир «Пушкин»</h1>
-          <div class="name-block__view">
-            <span class="view">₽₽₽ • Европейская</span>
-            <div class="view-button">40 - 50 Min</div>
-          </div>
-        </div>
-      </section>
-      <section class="menu">
-        <h2 class="menu-title">Закуски</h2>
-        <div class="menu__line"></div>
-        <div class="menu-wrapper">
-          <div class="menu-wrapper snacks">
-            <div class="snacks-name">
-              <span class="snacks__title">Сельдь на бородинском…</span>
-              <p class="snacks__addition">С яйцом и огурцом</p>
-              <p class="snacks__price">240 ₽</p>
-            </div>
-            <div >
-              <img class="snacks-foto" src="./assets/seledka.png" alt="salat seledka" />
-            </div>
-          </div>
-          <div class="menu-wrapper snacks">
-            <div class="snacks-name">
-              <span class="snacks__title">Соленья ассорти</span>
-              <p class="snacks__price">320 ₽</p>
-            </div>
-            <div>
-              <img class="snacks-foto" src="./assets/assorti.png" alt="salat assorti" />
-            </div>
-          </div>
-          <div class="menu-wrapper snacks">
-            <div class="snacks-name">
-              <span class="snacks__title">Грибы маринованные</span>
-              <p class="snacks__price">300 ₽</p>
-            </div>
-            <div>
-              <img class="snacks-foto" src="./assets/mashroom.png" alt="pickled mashroom" />
-            </div>
-          </div>
-          <div class="menu-wrapper snacks">
-            <div class="snacks-name">
-              <span class="snacks__title">Сало домашнее с горчицей</span>
-              <p class="snacks__price">320 ₽</p>
-            </div>
-            <div>
-              <img class="snacks-foto" src="./assets/xapam.png" alt="salo" />
-            </div>
-          </div>
-          <div class="menu-wrapper snacks">
-            <div class="snacks-name">
-              <span class="snacks__title">Малосольная семга</span>
-              <p class="snacks__price">390 ₽</p>
-            </div>
-            <div>
-              <img class="snacks-foto" src="./assets/semga.png" alt="salted salmon" />
-            </div>
-          </div>
-          <div class="menu-wrapper snacks">
-            <div class="snacks-name">
-              <span class="snacks__title">Язык говяжий с хреном</span>
-              <p class="snacks__price">350 ₽</p>
-            </div>
-            <div>
-              <img class="snacks-foto" src="./assets/beef-tongue.png" alt="beef tongue" />
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
     </main>
+    <section class="menu">
+      <h2 class="menu-title">Закуски</h2>
+      <div class="menu__line"></div>
+      <div class="menu-wrapper">
+        <div class="menu-wrapper snacks">
+          <div class="snacks-name">
+            <span class="snacks__title">Сельдь на бородинском…</span>
+            <p class="snacks__addition">С яйцом и огурцом</p>
+            <p class="snacks__price">240 ₽</p>
+          </div>
+          <div>
+            <img
+              class="snacks-foto"
+              src="./assets/seledka.png"
+              alt="salat seledka"
+            />
+          </div>
+        </div>
+        <div class="menu-wrapper snacks">
+          <div class="snacks-name">
+            <span class="snacks__title">Соленья ассорти</span>
+            <p class="snacks__price">320 ₽</p>
+          </div>
+          <div>
+            <img
+              class="snacks-foto"
+              src="./assets/assorti.png"
+              alt="salat assorti"
+            />
+          </div>
+        </div>
+        <div class="menu-wrapper snacks">
+          <div class="snacks-name">
+            <span class="snacks__title">Грибы маринованные</span>
+            <p class="snacks__price">300 ₽</p>
+          </div>
+          <div>
+            <img
+              class="snacks-foto"
+              src="./assets/mashroom.png"
+              alt="pickled mashroom"
+            />
+          </div>
+        </div>
+        <div class="menu-wrapper snacks">
+          <div class="snacks-name">
+            <span class="snacks__title">Сало домашнее с горчицей</span>
+            <p class="snacks__price">320 ₽</p>
+          </div>
+          <div>
+            <img class="snacks-foto" src="./assets/xapam.png" alt="salo" />
+          </div>
+        </div>
+        <div class="menu-wrapper snacks">
+          <div class="snacks-name">
+            <span class="snacks__title">Малосольная семга</span>
+            <p class="snacks__price">390 ₽</p>
+          </div>
+          <div>
+            <img
+              class="snacks-foto"
+              src="./assets/semga.png"
+              alt="salted salmon"
+            />
+          </div>
+        </div>
+        <div class="menu-wrapper snacks">
+          <div class="snacks-name">
+            <span class="snacks__title">Язык говяжий с хреном</span>
+            <p class="snacks__price">350 ₽</p>
+          </div>
+          <div>
+            <img
+              class="snacks-foto"
+              src="./assets/beef-tongue.png"
+              alt="beef tongue"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
     <footer class="footer">
       <div class="footer-logo">
         <img src="./assets/white-logo.svg" alt="logo" />
@@ -167,19 +181,18 @@
             </div>
           </div>
         </div>
-        
-          <div class="footer-list">
-            <a class="footer-list__link" href="#">About UberEats</a>
-            <a class="footer-list__link" href="#">Become a Delivery Partner</a>
-            <a class="footer-list__link" href="#">Become a Restaurant Partner</a>
-          </div>
-          <div class="footer-list">
-            <a class="footer-list__link" href="#">See all cities</a>
-            <a class="footer-list__link" href="#">Pricing</a>
-            <a class="footer-list__link" href="#">Help</a>
-            <a class="footer-list__link" href="#">FAQs</a>
-          </div>
-        
+
+        <div class="footer-list">
+          <a class="footer-list__link" href="#">About UberEats</a>
+          <a class="footer-list__link" href="#">Become a Delivery Partner</a>
+          <a class="footer-list__link" href="#">Become a Restaurant Partner</a>
+        </div>
+        <div class="footer-list">
+          <a class="footer-list__link" href="#">See all cities</a>
+          <a class="footer-list__link" href="#">Pricing</a>
+          <a class="footer-list__link" href="#">Help</a>
+          <a class="footer-list__link" href="#">FAQs</a>
+        </div>
       </div>
       <div class="footer-line"></div>
       <ul class="footer-auth">
