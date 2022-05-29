@@ -30,7 +30,7 @@
   font-weight: 500;
   font-size: 11px;
   line-height: 13px;
-}
+  }
 
 .button:nth-child(2) a {
   background-color: black;
@@ -40,8 +40,17 @@
 
 .button a:hover {
   background: #57ad56;
+  border: none;
+  transition: 0.4s;
   border-radius: 2px;
   color: #ffffff;
+  box-shadow: #51853c 1px 1px 1px;
+  
+}
+
+.button:active {
+  transform: translateX(1px) translateY(1px);
+  transition: 0.5s;
 }
 
 .header-bascket {
