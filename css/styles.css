@@ -173,7 +173,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 32px;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   width: 100%;
   height: 100%;
 }
@@ -193,6 +193,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 16px 0 0 16px;
 }
 
 .snacks__title {
@@ -222,6 +223,7 @@
 }
 
 .snacks-foto {
+  width: 100%;
   height: 100%;
 }
 
@@ -406,7 +408,8 @@
   .footer-info {
     display: flex;
     flex-direction: row;
-    column-gap: 80px;
+    justify-content: space-between;
+    padding-right: 150px;
   }
   .info-conteiner {
     display: flex;
@@ -414,16 +417,35 @@
     margin-top: 39px;
   }
 
-  .list-conteiner {
+  .footer-auth {
     display: flex;
     flex-direction: row;
-    column-gap: 86px;
+    justify-content: space-between;
+    padding-right: 200px;
   }
 }
 
-@media (min-width: 450px) {
-  .name-foto__fon {
+@media (min-width: 1024px) {
+  .menu-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 16px;
+    row-gap: 39px;
+  }
+
+  .snacks {
+    position: relative;
     width: 100%;
     height: 100%;
+    margin-right: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #757575;
+  }
+
+  .name-block {
+    left: 81px;
   }
 }
