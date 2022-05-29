@@ -16,12 +16,23 @@
       <div class="header-button">
         <div class="button"><a href="#"> Sign In</a></div>
         <div class="button"><a href="#"> Register</a></div>
+        <div class="header-bascket">
+          <a href="#"><img src="./assets/basket.svg" alt="basket" /></a>
+        </div>
       </div>
     </header>
     <main>
       <section class="name">
         <div class="name-foto">
-          <img class="name-foto__fon" src="./assets/main-foto.png" alt="foto" />
+          <picture>
+            <source srcset="./assets/fon2.png" media="(min-width: 768px) and (max-width: 1000px)">
+            <source srcset="./assets/fon-descktop.png" media="(min-width: 1000px)">
+            <img
+              class="name-foto__fon"
+              src="./assets/main-foto.png"
+              alt="foto"
+            />
+          </picture>
         </div>
         <div class="name-block">
           <h1 class="name-block__title">Трактир «Пушкин»</h1>
